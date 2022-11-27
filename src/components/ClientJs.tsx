@@ -1,16 +1,15 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { ClientJS } from "clientjs";
 
 export default function ClientJs() {
+  const [result, setResult] = useState<number | undefined>();
 
   useEffect( () => {
-    console.log("TODO : clientJs fingerprinting")
+    const client = new ClientJS();
+    setResult(client.getFingerprint())
   }, []);
 
-  return (
-    <div>
-      Not implemented
-    </div>
-  );
+  return <div>{result}</div>;
 }
 
 

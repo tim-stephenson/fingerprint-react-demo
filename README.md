@@ -23,9 +23,13 @@ Listed in order of relevance and usage, determined by github development history
 
 ### ImprintJS
 
+Found ImprintJS, being the least maintained, to not work in its 'plug and play' format
+
 - https://github.com/mattbrailsford/imprintjs
 - https://www.npmjs.com/package/imprintjs
 - https://mattbrailsford.github.io/imprintjs/
+
+## Site Map
 
 The demo's for these three fingerprinting libraries are 'routed' to sub-url's:
 
