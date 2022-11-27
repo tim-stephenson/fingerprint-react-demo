@@ -5,6 +5,12 @@
 Used [Vercel](https://vercel.com/) with default 'create-react-app' settings, NodeJS 16.x.x
 [Live Site](https://fingerprint-react-demo.vercel.app/)
 
+Set production environment variable (hides source code):
+
+```text
+GENERATE_SOURCEMAP=false
+```
+
 ## Open Source Fingerprinting Libraries
 
 Listed in order of relevance and usage, determined by github development history and npm downloads.
@@ -38,9 +44,3 @@ The demo's for these three fingerprinting libraries are 'routed' to sub-url's:
 - `/imprintjs`
 
 Currently the homepage is empty.
-
-## Other
-
-```text
-GENERATE_SOURCEMAP=false
-```
