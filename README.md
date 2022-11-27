@@ -3,6 +3,7 @@
 ## Deploying
 
 Used [Vercel](https://vercel.com/) with default 'create-react-app' settings, NodeJS 16.x.x
+[Live Site](https://fingerprint-react-demo.vercel.app/)
 
 ## Open Source Fingerprinting Libraries
 
