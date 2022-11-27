@@ -2,11 +2,7 @@
 
 ## Deploying
 
-Set up to be run on Google App Engine
-
-```text
-gcloud app deploy
-```
+Used [Vercel](https://vercel.com/) with default 'create-react-app' settings, NodeJS 16.x.x
 
 ## Open Source Fingerprinting Libraries
 
