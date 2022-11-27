@@ -6,10 +6,10 @@
     "@fingerprintjs/fingerprintjs": "^3.3.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.3",
-    "serve": "^14.1.2"
+    "react-router-dom": "^6.4.3"
   },
   "devDependencies": {
+    "react-scripts": "5.0.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -17,14 +17,11 @@
     "@types/node": "^16.18.3",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
-    "react-scripts": "5.0.1",
+    "cross-env": "^7.0.3",
     "typescript": "^4.9.3"
   },
   "scripts": {
-    "start": "npm run start:prod",
-    "start:prod": "serve -s -l 8080 build",
-    "start:dev": "react-scripts start",
-    "gcp-build": "npm run build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
