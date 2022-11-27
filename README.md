@@ -38,3 +38,9 @@ The demo's for these three fingerprinting libraries are 'routed' to sub-url's:
 - `/imprintjs`
 
 Currently the homepage is empty.
+
+## Other
+
+```text
+GENERATE_SOURCEMAP=false
+```
