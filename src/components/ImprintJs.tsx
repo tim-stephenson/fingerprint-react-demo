@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 
-export default function Inject() {
+export default function ImprintJs() {
 
   useEffect( () => {
-    console.log("TODO : inject fingerprinting")
+    console.log("TODO : ImprintJs fingerprinting")
   }, []);
 
   return (
