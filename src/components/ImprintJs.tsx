@@ -19,7 +19,7 @@ export default function ImprintJs() {
       "indexedDb",
       "installedFonts",
       "language",
-      "localIp",
+      // "localIp",
       "localStorage",
       "pixelRatio",
       "platform",
