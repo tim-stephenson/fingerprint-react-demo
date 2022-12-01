@@ -1,5 +1,9 @@
 # Demo of different open source fingerprinting libraries
 
+## Sister Repo
+
+[fingerprint-static-demo](https://github.com/tim-stephenson/fingerprint-static-demo)
+
 ## Deploying
 
 Used [Vercel](https://vercel.com/) with default 'create-react-app' settings, NodeJS 16.x.x
